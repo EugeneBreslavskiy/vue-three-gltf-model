@@ -21,10 +21,7 @@
         methods: {
             init() {
                 this.container = this.$refs.scene
-                
                 this.scene = new THREE.Scene()
-                //this.scene.background = new THREE.Color( 0x71c7ec )
-                // this.scene.fog = new THREE.Fog( 0x71c7ec, 1, 80 )
                 
                 this.createCamera()
                 this.createControls()
