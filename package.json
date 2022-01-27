@@ -10,7 +10,7 @@
     "build": "node build/build.js"
   },
   "dependencies": {
-    "three": "^0.107.0",
+    "three": "^0.137.0",
     "three-gltf-loader": "^1.107.0",
     "three-orbitcontrols": "^2.102.2",
     "vue": "^2.5.2"
